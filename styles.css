@@ -1,0 +1,94 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2.2vw;
+    min-width: 90%;
+    min-height: 90%;
+}
+
+#header {
+    border: black solid 2px;
+    text-align: center;
+    padding: 2%;
+    margin: 9%;
+    margin-top: 3%;
+    background: pink;
+    margin-bottom: 2%;
+}
+
+#header h1 {
+    background: orange;
+    border-radius: 1em;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+#header a {
+    text-decoration: none;
+    color: black;
+}
+
+#header a:hover {
+    color: gray;
+}
+
+#header ul li {
+    display: inline;
+    padding: 2%;
+    margin: 5%;
+    list-style: none;
+    background: yellow;
+    border-radius: 1em;
+}
+
+#content {
+    margin: 9%;
+    border: black solid 2px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: lightblue;
+    margin-top: 3%;
+}
+
+#content h2 {
+    text-align: center;
+    background: orange;
+    border-radius: 1em;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#content h3 {
+    display: inline;
+    text-size-adjust: auto;
+    padding: 0.03%;
+    margin: 1%;
+}
+
+#event p {
+    padding: 2%;
+    margin: 2%;
+}
+
+#event {
+    border: black 2px solid;
+    padding: 2%;
+    margin: 2%;
+    background: white;
+}
+
+#blog {
+    border: black 2px solid;
+    padding: 2%;
+    margin: 2%;
+    background: white;
+}
+
+#about {
+    border: black 2px solid;
+    padding: 2%;
+    margin: 2%;
+    background: white;
+}
