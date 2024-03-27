@@ -16,32 +16,28 @@
         <h2>About</h2>
 <!--Info about Al, the Micron Academy, this site, and contact info-->
             <div id="about">
-                <h3>Webmaster Al</h3>
-                <p>Hi, I'm Al! (She/Her). I was born and raised in Emmett, Idaho and I identify as a queer woman. I'm majoring in Computer Science and Cybersecurity at Boise State University. 
-                    <br><br>
-                    It can be difficult to find other LGBTQ+ folks in the Boise area. The purpose of this site is to organize and display queer events to help myself and others to connect with our community.
-                </p>
-                <h3>The Micron Academy for Inclusive Leadership</h3>
-                <p>This site is my first-year "passion project" as a <a href="https://www.boisestate.edu/undergraduate-research/get-involved/scholar-communities/micron-academy/">Micron Academy</a> Fellow.</p>
+                <h3>About this Website</h3>
+                <p>The goal of this project is to provide an accessible website for users to view and upload LGBTQ+ events in the Boise area.</p>
                 <h3>Queer Resources at Boise State University</h3>
                 <p><a href="https://www.boisestate.edu/genderequity/">The Gender Equity Center</a></p>
                 <h3>How to Upload an Event</h3>
                 <!--Created using Web3Forms https://web3forms.com/-->
                     <form action="https://api.web3forms.com/submit" method="POST">
-
                         <input type="hidden" name="access_key" value="c7900924-4dcb-4c18-82d0-419d76c66bcb">
                         <p>Event Name:</p>
                         <input type="text" name="name" required>
+                        <p>Event Date:</p>
+                        <input type="text" name="date" required>
+                        <p>Event Time:</p>
+                        <input type="text" name="time" required>
                         <p>Your Email:</p>
                         <input type="email" name="email" required>
                         <p>Event Description:</p>
                         <textarea name="message" required></textarea>
                         <div class="h-captcha" data-captcha="true"></div>
                         <button type="submit">Submit Form</button>
-                
                     </form>
-                
-                    <script src="https://web3forms.com/client/script.js" async defer></script>
+                <script src="https://web3forms.com/client/script.js" async defer></script>
             </div>
     </div>
 </body>
